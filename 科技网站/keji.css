@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+}
+#i_zym{
+	height: 100%;
+	width: 100%;
+}
+div li{
+	height: 100%;
+	width: 100%;
+	border: 1px solid green;
+}
+#i_dhlbox{
+	height: 60px;
+	width: 100%;
+}
+/*导航栏*/
+#i_dhl{
+	height: 60px;
+	width: 1500px;
+	position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -750px;
+	border: 1px solid green;
+	position: fixed;
+	top:0px;
+    
+}
+#i_dhl>img:nth-child(1){
+	position: absolute;
+	top:20px;
+	left:320px;
+	border: 1px solid green;
+	
+}
+#i_dhl img:nth-child(2){
+	position: absolute;
+	top:37px;
+	left:515px;
+	border: 1px solid green;
+	
+}
+/*菜单*/
+#i_meau{
+	height:60px;
+	width: 330px;
+	position: absolute;
+	top:0px;
+	left: 850px;
+	border: 1px solid green;
+}
+#i_meau ul li{
+	float:left;
+	height: 30px;
+	width: 60px;
+	border: 1px solid green;
+	padding-top: 30px;
+	text-align: center;
+	
+}
+/*小圆点*/
+#i_xyd{
+	height: 10px;
+	width: 150px;
+	border: 1px solid green;
+	transform: rotateZ(90deg);
+	position: fixed;
+	top: 50%;
+	margin-top:-10px;
+	right:-70px;
+}
+#i_xyd ul li{
+	float:left;
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	margin-left: 10px;
+	border: 1px solid green;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
